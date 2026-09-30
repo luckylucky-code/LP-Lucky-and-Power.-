@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LP Recruitment Dashboard</title>
+<style>
+body{margin:0;font-family:Inter,system-ui,sans-serif;background:#f5f8fc;color:#172235}
+header{background:#0649a5;color:#fff;padding:20px 5%;display:flex;justify-content:space-between;align-items:center}
+main{width:min(1100px,90%);margin:35px auto}
+.card{background:#fff;border:1px solid #dfe7f1;border-radius:18px;padding:24px;margin-bottom:20px;box-shadow:0 8px 25px #06387912}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.stat{padding:20px;border-radius:15px;background:#eaf3ff}.stat b{font-size:30px;color:#0649a5;display:block}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:14px;border-bottom:1px solid #e5eaf0;font-size:14px}th{color:#0649a5}
+.notice{padding:15px;background:#fff8df;border-left:4px solid #f3c53b;border-radius:8px}
+@media(max-width:650px){.stats{grid-template-columns:1fr}table{font-size:12px}}
+</style>
+</head>
+<body>
+<header><strong>LP — Recruitment Dashboard</strong><span>Recruiter View</span></header>
+<main>
+<div class="card">
+<h1>Applicant Overview</h1>
+<div class="stats"><div class="stat"><b>0</b>New Applications</div><div class="stat"><b>0</b>For Review</div><div class="stat"><b>0</b>Shortlisted</div></div>
+</div>
+<div class="card">
+<h2>Applications</h2>
+<table><tr><th>Applicant</th><th>Position</th><th>Status</th><th>Documents</th></tr>
+<tr><td>No applications yet</td><td>—</td><td>—</td><td>—</td></tr></table>
+</div>
+<div class="card">
+<h2>How the real system works</h2>
+<div class="notice">This page is a visual dashboard demo. For real applications, connect the public careers website to a company-controlled Google Form/Drive, spreadsheet, database, or applicant-tracking system. The recruiter can then review applicant information and downloaded resumes in one place.</div>
+</div>
+</main>
+</body>
+</html>

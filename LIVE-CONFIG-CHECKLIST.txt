@@ -1,0 +1,15 @@
+LP LIVE CONFIGURATION CHECKLIST
+
+[ ] Official recruitment email
+[ ] Official phone number
+[ ] Office address
+[ ] Social media links
+[ ] Google Form URL
+[ ] Google Drive application folder
+[ ] Google Sheets response sheet
+[ ] GitHub account/repository for public website
+[ ] Recruiter access permissions
+
+IMPORTANT:
+Do not publish applicant resumes, IDs, phone numbers, emails, or other personal
+information in a public GitHub repository. GitHub Pages sites are public.
